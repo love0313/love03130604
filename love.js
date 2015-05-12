@@ -2,7 +2,7 @@ var express = require('express');
 var core = require('./core');
 var ourstory = express();
 
-ourstory.set('views','./views');
+ourstory.set('views','./view');
 ourstory.set('view engine', 'jade');
 
 ourstory.use('/', core);
