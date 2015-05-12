@@ -6,6 +6,8 @@ core.use(function timeLog(req, res, next) {
   next();
 });
 
+core.use('/res/', express.static('res'));
+
 core.get('/', function(req, res) {
   res.send('我们的故事');
 });
