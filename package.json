@@ -1,0 +1,25 @@
+{
+  "name": "ourstory",
+  "version": "0.0.1",
+  "description": "记录我们生活的点点滴滴",
+  "main": "love.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guolongcang2015/ourstory.git"
+  },
+  "keywords": [
+    "love"
+  ],
+  "author": "guolongcang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guolongcang2015/ourstory/issues"
+  },
+  "homepage": "https://github.com/guolongcang2015/ourstory",
+  "dependencies" : { "express" : "4.12.3 - 4.9999.9999"
+  , "jade" : "1.9.2 - 1.9999.9999"
+  }
+}

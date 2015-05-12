@@ -1,10 +1,13 @@
 var express = require('express');
 var core = require('./core');
-var app = express();
+var ourstory = express();
 
-app.use('/', core);
+ourstory.set('views','./views');
+ourstory.set('view engine', 'jade');
 
-var server = app.listen(81, function () {
+ourstory.use('/', core);
+
+var server = ourstory.listen(81, function () {
 
   var host = server.address().address;
   var port = server.address().port;
