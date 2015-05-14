@@ -2,7 +2,7 @@ body {
   padding-top: 50px;
 }
 
-.head {margin:auto}
+.head {text-aligh:center;max-width:100%;margin:auto;}
 
 .starter-template {
   padding: 40px 15px;
