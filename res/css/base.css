@@ -2,8 +2,8 @@ body {
   padding-top: 50px;
 }
 
-.head {height:332px; width:100%;background-image: URL(/res/img/love.jpg);
-background-position: center;
+.head {height:200px; width:100%;background-image: URL(/res/img/love.jpg);
+background-position: contain;
 background-repeat: no-repeat;
 background-attachment: fixed;}
 
