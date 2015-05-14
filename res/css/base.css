@@ -3,7 +3,6 @@ body {
 }
 
 .head {height:332px; width:100%;background-image: URL(/res/img/love.jpg);
-background-size:contain;
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;}
