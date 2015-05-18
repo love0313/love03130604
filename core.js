@@ -9,7 +9,7 @@ core.use(function timeLog(req, res, next) {
 core.use('/res/', express.static('res'));
 
 core.get('/', function(req, res) {
-  res.render('love', {title: '宝贝', message: '我们的故事', timestamp:Date.now()});
+  res.render('love', {title: '我们的故事', timestamp:Date.now()});
 });
 
 
