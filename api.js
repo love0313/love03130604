@@ -1,6 +1,6 @@
 var WechatAPI = require('wechat-api');
 
-var api = new WechatAPI('wxff2f138e726bc6e5', 'e90afddc8cc657dc6c9c53dbc4055c10', );
+var api = new WechatAPI('wxff2f138e726bc6e5', 'e90afddc8cc657dc6c9c53dbc4055c10');
 var menu = {
 		 "button":[
 		           {
@@ -22,9 +22,7 @@ var menu = {
 		                 "key":"V1001_GOOD"
 		               }]
 		             }]
-		           }
-		         ]
-		        };
+		           };
 
 api.createMenu(menu, function(err,result){
 	console.log(err);
