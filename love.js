@@ -10,7 +10,7 @@ ourstory.use('/', core);
 
 ourstory.use('/wechat', wechat);
 
-var server = ourstory.listen(81, function () {
+var server = ourstory.listen(80, function () {
 
   var host = server.address().address;
   var port = server.address().port;
