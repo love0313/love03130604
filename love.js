@@ -1,11 +1,14 @@
 var express = require('express');
 var core = require('./core');
+var wechat = require('./wechat');
 var ourstory = express();
 
 ourstory.set('views','./view');
 ourstory.set('view engine', 'jade');
 
 ourstory.use('/', core);
+
+ourstory.use('/wechat', wechat);
 
 var server = ourstory.listen(81, function () {
 
